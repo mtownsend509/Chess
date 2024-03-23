@@ -16,6 +16,9 @@ const [Board, setBoard] = [['R','K',,,,,,],
             ['wP','wP','wP','wP','wP','wP','wP','wP'],
             [,,,,,,,]]
 
+            let Butt = () => {
+              console.log('butt')
+            }
 
 function App() {
   return (
@@ -59,8 +62,10 @@ function App() {
             backgroundImage: `url(${bP.backgroundImage})`,
             height: '80px', width: '80px',
             backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
-          }}></div>
+            backgroundRepeat: 'no-repeat',
+          }}
+          onClick = {() => {console.log(bP)}}
+          ></div>
         </div>
         <div class = 'square' id = 'b7'>
         <div style = {{
@@ -81,18 +86,48 @@ function App() {
           }}></div>
         </div>
         <div class = 'square' id = 'd7'>
+        <div style = {{
+            backgroundImage: `url(${bP.backgroundImage})`,
+            height: '80px', width: '80px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}></div>
         </div>
         <div class = 'square' id = 'e7' style = {{
           backgroundColor: 'brown'
         }}>
+          <div style = {{
+            backgroundImage: `url(${bP.backgroundImage})`,
+            height: '80px', width: '80px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}></div>
         </div>
         <div class = 'square' id = 'f7'>
+        <div style = {{
+            backgroundImage: `url(${bP.backgroundImage})`,
+            height: '80px', width: '80px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}></div>
         </div>
         <div class = 'square' id = 'g7' style = {{
           backgroundColor: 'brown'
         }}>
+          <div style = {{
+            backgroundImage: `url(${bP.backgroundImage})`,
+            height: '80px', width: '80px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}></div>
         </div>
         <div class = 'square' id = 'h7'>
+        <div style = {{
+            backgroundImage: `url(${bP.backgroundImage})`,
+            height: '80px', width: '80px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}></div>
         </div>
         
       </div>
