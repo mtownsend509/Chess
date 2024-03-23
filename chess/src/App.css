@@ -1,0 +1,25 @@
+#board {
+  border: solid;
+  height: 640px;
+  width: 640px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.row {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  background-color: blanchedalmond;
+  height:80px;
+  width: 80px;
+}
+
+.bP {
+  height: 80px;
+  width: 80px;
+  background-image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fchess.fandom.com%2Fwiki%2FPawn&psig=AOvVaw0FeKLsSEMvtoqt1qeoYZ0a&ust=1711310935748000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiAupWYi4UDFQAAAAAdAAAAABAE';
+}
